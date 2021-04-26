@@ -1,0 +1,20 @@
+.main .main__section--secondPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8fe;
+  margin-top: 30px;
+}
+
+.main .main__section--secondPage .main__section__img--secondPage {
+  width: 85vw;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=secondPage.css.map */

@@ -1,0 +1,48 @@
+.main__section--thirdPage {
+  display: flex;
+  flex-direction: column;
+  background-color: $desaturatedBlue;
+  color: #fff;
+  text-align: center;
+  padding: 0 45px;
+  line-height: 1.618;
+  .main__section__h2--thirdPage {
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .main__section__p--thirdPage {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  .main__section__form--thirdPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .main__section__form--email--thirdPage {
+      width: 65vw;
+      height: 35px;
+      padding: 5px 10px;
+      margin-bottom: 10px;
+      border: 1px solid $veryDarkBlue;
+      border-radius: 3px;
+      &::placeholder {
+        color: $lightGray;
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.1rem;
+      }
+    }
+    .main__section__form--btn--thirdPage {
+      width: 65vw;
+      height: 35px;
+      background-color: $brightBlue;
+      border: none;
+      border-radius: 3px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #fff;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 50px;
+    }
+  }
+}

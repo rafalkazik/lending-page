@@ -1,0 +1,30 @@
+// navigation
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  .header {
+    .header__nav {
+      display: flex;
+      justify-content: space-between;
+      width: 90vw;
+      margin: 3vh auto;
+      .header__nav__img--logo {
+        width: 75px;
+      }
+      .header__nav--menu {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        .header__nav--menu__a {
+          font-size: 1.2rem;
+          display: inline-block;
+          text-decoration: none;
+          color: $veryDarkBlue;
+          margin-right: 1.8rem;
+        }
+      }
+    }
+  }
+}

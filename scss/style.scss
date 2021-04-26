@@ -1,0 +1,51 @@
+@import "variables.scss", "nav.scss", "firstPage", "secondPage", "thirdPage";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Raleway", "Open Sans", sans-serif;
+}
+
+.footer {
+  background-color: $veryDarkBlue;
+  color: #fff;
+  padding: 50px 30px 30px 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  .footer_img--logo {
+    margin-bottom: 20px;
+  }
+  .footer__div--contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    .footer__img--contactIcon {
+      margin: 20px 10px 0 0;
+      vertical-align: -20%;
+    }
+  }
+  .footer__ul__nav {
+    list-style: none;
+    margin-bottom: 40px;
+    .footer__ul--menu__a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+    }
+  }
+  .footer__div--socials {
+    display: flex;
+    justify-content: center;
+    & i {
+      font-size: 2rem;
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px 20px 0;
+    }
+  }
+}
