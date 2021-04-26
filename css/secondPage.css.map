@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AACE,KADG,CACH,0BAA0B,CAAC;EACzB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,IAAI;CAKjB;;AAXH,AAOI,KAPC,CACH,0BAA0B,CAMxB,+BAA+B,CAAC;EAC9B,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;CAClB",
-    "sources": [
-        "../scss/secondPage.scss"
-    ],
-    "names": [],
-    "file": "secondPage.css"
-}
