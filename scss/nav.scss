@@ -28,3 +28,27 @@ body {
     }
   }
 }
+
+// media 768
+
+@media (min-width: 768px) {
+  body {
+    .header {
+      .header__nav {
+        margin-top: 5vh;
+        max-width: 1440px;
+        justify-self: center;
+        .header__nav__img--logo {
+          width: 110px;
+        }
+        .header__nav--menu {
+          .header__nav--menu__a {
+            font-size: 1.3rem;
+            margin-right: 0;
+            margin-left: 3.5rem;
+          }
+        }
+      }
+    }
+  }
+}
