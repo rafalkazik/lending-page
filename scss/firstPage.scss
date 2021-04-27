@@ -58,6 +58,9 @@
       font-weight: 700;
       color: #fff;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
     }
   }
 }
@@ -125,6 +128,9 @@
           font-weight: 700;
           color: #fff;
           box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
         }
       }
     }
