@@ -145,6 +145,7 @@ body .header .header__nav .header__nav--menu .header__nav--menu__a {
 .main__section--firstPage .main__section__form--firstPage .main__section__form--btn {
   width: 90vw;
   height: 40px;
+  background: none;
   background-color: #3065f8;
   border: none;
   border-radius: 5px;
@@ -656,6 +657,7 @@ html {
 
 .main .main__section--secondTextWrap .main__section__div--quoteBox .section__div--quoteNameBox .setion__div--quoteNameBox--img {
   width: 25px;
+  height: 25px;
   border-radius: 50%;
 }
 
