@@ -46,3 +46,55 @@
     }
   }
 }
+
+// media 768px
+
+@media (min-width: 768px) {
+  .main__section--thirdPage {
+    .main__section--thirdPageWrapper {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1440px;
+      height: 25vh;
+      min-height: 280px;
+      margin: 0 auto;
+      text-align: left;
+      .main__section--thirdTextWrap {
+        width: 45vw;
+        justify-self: center;
+        align-self: center;
+        .main__section__h2--thirdPage {
+          font-size: 2.5rem;
+          margin-top: 0;
+        }
+        .main__section__p--thirdPage {
+          font-size: 1.3rem;
+          margin-bottom: 20px;
+        }
+      }
+      .main__section--thirdFormWrap {
+        display: flex;
+        align-content: flex-start;
+        width: 45vw;
+        padding-left: 15vh;
+        .main__section__form--thirdPage {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          .main__section__form--email--thirdPage {
+            width: 30vw;
+            align-self: flex-start;
+            // max-width: 400px;
+          }
+          .main__section__form--btn--thirdPage {
+            width: 15vw;
+            font-size: 1.1rem;
+            align-self: flex-start;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
