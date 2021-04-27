@@ -167,6 +167,8 @@ body .header .header__nav .header__nav--menu .header__nav--menu__a {
   -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @media (min-width: 768px) {
@@ -279,6 +281,8 @@ body .header .header__nav .header__nav--menu .header__nav--menu__a {
     -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
 
@@ -533,6 +537,8 @@ body .header .header__nav .header__nav--menu .header__nav--menu__a {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 50px;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .footer {
