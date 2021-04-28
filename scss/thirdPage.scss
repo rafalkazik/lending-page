@@ -76,7 +76,7 @@
         display: flex;
         align-content: flex-start;
         width: 45vw;
-        padding-left: 15vh;
+        padding-left: 14vh;
         .main__section__form--thirdPage {
           display: flex;
           flex-direction: column;
@@ -92,6 +92,9 @@
             font-size: 1.1rem;
             align-self: flex-start;
             margin-bottom: 0;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: 0;
           }
         }
       }
