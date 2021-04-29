@@ -43,6 +43,9 @@
       color: #fff;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
       margin-bottom: 50px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
     }
   }
 }
@@ -92,8 +95,8 @@
             font-size: 1.1rem;
             align-self: flex-start;
             margin-bottom: 0;
-            -moz-appearance: none;
             -webkit-appearance: none;
+            -moz-appearance: none;
             appearance: none;
             transition: 0.2s linear;
             &:hover {
