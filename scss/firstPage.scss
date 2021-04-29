@@ -61,6 +61,11 @@
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
+      transition: 0.2s linear;
+      &:hover {
+        cursor: pointer;
+        background-color: $brightBlueActive;
+      }
     }
   }
 }
